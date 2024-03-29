@@ -122,11 +122,11 @@ class _NavigationScreenState extends State<NavigationScreen> {
 
         break;
       case MapBoxEvent.navigation_cancelled:
-        await _controller?.finishNavigation();
+        /*await _controller?.finishNavigation();
         //_controller?.clearRoute();
         if (mounted) {
           Navigator.pop(context);
-        }
+        }*/
         //await dispose();
         setState(() {
           _routeBuilt = false;

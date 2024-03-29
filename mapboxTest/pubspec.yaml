@@ -37,6 +37,9 @@ dependencies:
   cupertino_icons: ^1.0.6
   custom_mapbox_plugin:
     path: D:\repo\plugin_mapbox_gitlab
+  shared_preferences: ^2.2.2
+  permission_handler: ^8.0.0+2
+  google_fonts: ^6.2.0
 
 dev_dependencies:
   flutter_test:
